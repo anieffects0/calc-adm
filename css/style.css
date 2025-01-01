@@ -103,7 +103,9 @@ footer {
     background-color: var(--color2);
 }
 
-.about {
+.about,
+.shedule,
+.learning {
     background-color: #eee;
 }
 
@@ -157,7 +159,7 @@ footer {
     transition: linear 0.3s;
 }
 
-.forwhom h5:hover {
+.forwhom  h5:hover {
     padding: 50px;
     border: 3px solid var(--color2);
     transition: linear 0.3s;
@@ -169,4 +171,27 @@ footer {
     color: var(--color1);
     transition: linear 0.3s;
     cursor: default;
+}
+
+.learning h5 {
+    padding: 30px;
+    border: 3px solid var(--color1);
+    transition: linear 0.3s;
+}
+
+.learning h5:hover {
+    padding: 30px;
+    border: 3px solid var(--color2);
+    transition: linear 0.3s;
+    border-radius: 5px 30px 5px 30px;
+    background-color: rgb(243, 253, 255);
+}
+
+.author{
+    padding-bottom: 0;
+}
+.itd_img1 {
+    margin-bottom: 0;
+    min-width: 260px;
+    height: 400px;
 }
